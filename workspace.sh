@@ -36,13 +36,13 @@ curl https://getmic.ro | bash
 echo "======== micro installed ========"
 sleep 3
 
-echo "======== set up github profile ========"
+# echo "======== set up github profile ========"
 
-read -p "Enter github username: " USERNAME 
-read -p "Enter github email: " EMAIL 
+# read -p "Enter github username: " USERNAME 
+# read -p "Enter github email: " EMAIL 
 
-git config --global user.name $USERNAME
-git config --global user.email $EMAIL
+# git config --global user.name $USERNAME
+# git config --global user.email $EMAIL
 
 zsh
 exit
