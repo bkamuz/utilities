@@ -2,6 +2,7 @@
 
 ### UPDATE APT
 sudo apt update  # Update apt
+sudo apt install zsh
 # Wait
 echo "======== apt updated ========"
 sleep 3
